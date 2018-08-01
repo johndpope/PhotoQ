@@ -1,3 +1,5 @@
+Uses Google Cloud Vision API to search for photos in the database by tags. Allows adding and deleting tags. Incomplete.
+
 Written By: 
 Cindy Tran
 Dustin Cai
