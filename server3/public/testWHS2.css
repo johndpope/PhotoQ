@@ -1,0 +1,190 @@
+/* title */
+h2 {
+   font-family: 'Open Sans';
+   font-size: 300%;
+   font-weight: bolder;
+   font-style: oblique;
+   text-align: left;
+   margin: 10px;
+   letter-spacing: -2px;
+   color: rgb(23, 87, 127);
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   background-color: white;
+   height: 150px;
+   width: 100%; 
+
+}
+body {
+     height: 100%;
+     background-color: rgb(233, 234, 236);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+#react{
+
+
+}
+
+h2{
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#input_box{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 200%;
+}
+
+
+
+#req-text{
+  height: 30%;
+  width: 60%;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(23, 87, 127);
+  padding-left: 20px;
+}
+
+
+
+#search{
+  background-color: white;
+  height: 33%;
+  width: 70px;
+  color: rgb(23, 87, 127);
+  font-weight: bold;
+  padding: 0;
+}
+
+#b1{
+  font-family: 'Open Sans';
+  font-size: xx-large;
+  color: rgb(73, 87, 127);
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 180px;
+}
+
+#b2 {
+  font-family: 'Open Sans';
+  font-size: xx-large;
+  color: rgb(73, 87, 127);
+  line-height: 180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+div.selectedControls {
+      display: block;
+      display: flex;
+      left: 4px;
+      right: 4px;
+      position: absolute;
+      flex-wrap: wrap;
+      width: 80%;
+      height: 80%;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      padding-left: 40px;
+}
+
+div.normalControls {
+       display: none;
+}
+
+/* Photo tile - position and size will be given by PhotoGallery */
+div.tile {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #eee;
+    cursor: pointer;
+    overflow: hidden;
+    float: left;
+}
+
+/* Tag styling */
+p.tagText {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: x-large;
+   margin: 5px;
+   position: relative;
+   padding: 5px;
+   zIndex: 2;
+   background-color: rgb(131, 190, 201);
+   padding: 5px;
+   border-radius: 5px;
+   color: white;
+   word-break: break-all;
+}
+
+
+img {
+    display: block;
+}
+
+/* so far nothing special when image selected */
+img.normal {
+}
+
+img.selected {
+}
+
+
+#inputandpop{
+    flex-direction: column;
+    width: 100%; 
+    height: 100%;  
+    position: relative; 
+}
+
+#popup{
+    display: none; 
+    flex-direction: column; 
+    /*display: none;*/
+    z-Index: 2;  
+    background-color: white;
+    border-style: solid;  
+    margin: 2px; 
+    position: absolute;
+    bottom: 30px; 
+    left: 88px; 
+
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(23, 87, 127);
+    padding-left: 20px;
+
+justify-content: center;
+  align-items: center;
+  text-align: center;
+   	
+}
